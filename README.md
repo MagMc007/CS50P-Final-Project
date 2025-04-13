@@ -44,9 +44,13 @@ The program can list all saved contacts alphabetically in a neat table format.
 ## Data Storage
 - All contact data is stored in a persistent SQLite database (phonebook.db). This ensures that your contacts are saved and loaded between sessions, so you don't lose your data when the program closes.
 ## Testing
-### Phone Number Validation: The phone number validation function was tested to ensure it accepted valid formats (e.g., digits only) and rejected incorrect formats (e.g., letters or special characters(not "+")).
-### Email validation: Simiarly, the email validation function is tested for the entry of a valid email address format. 
-### Search by Phone Number: This function was tested by searching for existing and non-existing contacts phone numbers. The program correctly retrieved contacts with matching phone numbers and displayed appropriate error messages when no match was found.
-### Search by Name: The search-by-name feature was tested with names. The program successfully retrieved contacts with exact matches.
+### Phone Number Validation: 
+The phone number validation function was tested to ensure it accepted valid formats (e.g., digits only) and rejected incorrect formats (e.g., letters or special characters(not "+")).
+### Email validation: 
+Simiarly, the email validation function is tested for the entry of a valid email address format. 
+### Search by Phone Number: 
+This function was tested by searching for existing and non-existing contacts phone numbers. The program correctly retrieved contacts with matching phone numbers and displayed appropriate error messages when no match was found.
+### Search by Name: 
+The search-by-name feature was tested with names. The program successfully retrieved contacts with exact matches.
 
     
