@@ -1,5 +1,6 @@
 # CONTACTS BOOK
 [Checkout the Video Demo]( https://youtu.be/78KHHe02PC0?si=NzqD1OMRAsCIfi3J)
+
 This is a final project for Harvard's CS50P(Introduction to programming with Python) course. It is a command-line application written in Python that allows a user to store and manipulate contacts in a phonebook database. It allows the user to create, delete, update and search contacts.
 ## Features
 - Create new contacts with name, phone, email and address.
